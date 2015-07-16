@@ -1,0 +1,24 @@
+{
+  "name": "neatbar",
+  "version": "0.1.0",
+  "homepage": "https://github.com/spaetsch/neatbar",
+  "authors": [
+    "Sarah Paetsch <spaetsch@gmail.com>"
+  ],
+  "description": "simple nav bar using bourbon neat",
+  "main": "index.html",
+  "keywords": [
+    ""
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bourbon": "~4.2.3",
+    "neat": "~1.7.2"
+  }
+}
