@@ -1,0 +1,17 @@
+*
+  box-sizing: border-box
+
+body
+  background-color: $body-color
+  color: $body-textcolor
+  width: 75%
+  margin: auto
+
+a
+  text-decoration: none
+  color: $link-color
+  &:visited
+    color: desaturate($link-color, 10%)
+  &:hover
+    color: lighten($link-color, 25%)
+
